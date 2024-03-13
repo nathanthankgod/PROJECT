@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: pink;
+    display: flex; 
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px; 
+} 
+
+nav ul li{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:white;
+    padding: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 5px;
+    margin: 20px;
+}
+
+.gallery img{
+    width: 300px;
+    border-radius: 10px;   
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+/* 
+
+header h1{
+color: green;
+font-family:serif;
+align-content: center;
+text-align: center;
+display: flex;
+padding-bottom: 10px;
+}
+
+.logo{
+    color: red;
+    width: 50px;
+    height:50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font: weight 300px;
+}
+
+
+.navbar li:hover{
+    color: rgb (0, 0, 255);
+    background-color: brown
+}
+ footer{
+    background-color: gray;
+    text-align: center;
+}
+.memu li{
+    display: inline-block;
+    padding: 50px;
+    border-radius:30px;
+    border-color:blueviolet;
+    text-align: center;
+    margin: 10px;
+    background-color: gray;
+
+}
+menu li:hover{
+    background-color: lightblue;
+    color: blue;
+
+}
+.reservstion{
+    background-color: bisque;
+    padding: 20px;
+    margin:  20PX;
+    border-radius: 20px;
+}
+.about{
+    background-color: aquamarine;
+    color: darkblue;
+}
+header{
+    
+} */
